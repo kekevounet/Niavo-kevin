@@ -98,11 +98,17 @@ function App() {
                 <span><i className="fas fa-envelope"></i></span> Contactez-moi</motion.button></a>
 
 
-              <a href="qqd"><motion.button className='w-full p-2 mt-2 ml-2 text-black bg-blue-200 border-b-2 border-blue-400 rounded-md shadow-lg'
-                initial={{scale:1,opacity:1}}
-                whileHover={{backgroundColor:'#9f9eee'}}
-                whileTap={{ scale: 0.8, opacsity: 0.7, y:-10, backgroundColor:'#3f3e93'}}>
-                <span><i className="fas fa-download"></i></span> Télécharger mon CV</motion.button></a>
+                <a href="/CV.pdf" download>
+  <motion.button
+    className="w-full p-2 mt-2 ml-2 text-black bg-blue-200 border-b-2 border-blue-400 rounded-md shadow-lg"
+    initial={{ scale: 1, opacity: 1 }}
+    whileHover={{ backgroundColor: '#9f9eee' }}
+    whileTap={{ scale: 0.8, opacity: 0.7, y: -10, backgroundColor: '#3f3e93' }}
+  >
+    <span><i className="fas fa-download"></i></span> Télécharger mon CV
+  </motion.button>
+</a>
+
               </div>
             </div>
           </div>
@@ -201,7 +207,7 @@ function App() {
 
           
           <div className="p-1 mb-2 shadow-md bg-violet-300 md:p-3 h-1/3">
-            <div className='text-center'>Stagiare  - MEN EN PHP  <div><i className='fas fa-hourglass-end'></i> Mai - Août 2023</div></div>
+            <div className='text-center'>Stagiare  - MEN EN PHP  <div><i className='fas fa-hourglass-end'></i> Mai - Août 2024</div></div>
             <div>
               <li>
                 Conception et développement d'une plateforme de gestion des
